@@ -1,227 +1,165 @@
-## Coal Combustion Fundamentals
+# Coal Combustion Fundamentals
 
-### Basic Principles
+## Basic Combustion Chemistry
 
 - **Combustion Process**:
-
-  - Coal combustion involves chemical reactions between hydrocarbons and oxygen
-  - Air is typically used as the oxygen source, though pure oxygen may also be used
-  - Combustion is an exothermic chemical reaction
-
-- **Air Composition**:
-  - Contains approximately 21% oxygen by volume and 23% by weight
-  - Approximately 20% (or 1/5th) is oxygen and 80% is nitrogen
-  - Also contains other gases, moisture, and inert components
-  - Exact percentages should be used in calculations
-
-### Chemical Reactions
+  - Involves chemical reactions between coal hydrocarbons and oxygen
+  - Typically uses air (21% O₂ by volume, 23% by weight) as oxygen source
+  - Approximately 80% of air is nitrogen (non-reactive)
+  - Combustion is exothermic (releases heat energy)
 
 - **Energy Release Mechanism**:
-  - Energy is released from internal energy stored in chemical bonds
-  - Includes C-C, C-H, C-O, C-S bonds present in feed materials
+  - Energy stored in chemical bonds (C-C, C-H, C-O, C-S) is released
   - Products (CO₂, H₂O) have lower internal bond energy than reactants
-  - Chemical reactions involve breaking bonds in reactants and forming new bonds in products
+  - Energy release measured as Gross Calorific Value (GCV) in kcal/kg
+  - Activation energy required to initiate reactions
 
-### Energy Considerations
-
-- **Energy Storage and Release**:
-
-  - Energy in coal/fossil fuel is stored in different chemical bonds
-  - Energy level of hydrocarbons (FC+VM) is higher than the products (CO₂, H₂O, etc.)
-  - Total energy release per unit mass is calculated as Gross Calorific Value (GCV) in kcal/kg
-  - Activation energy is required to initiate chemical reaction and electron interchange
-
-- **Historical Energy Cycle**:
-  - Same amount of energy was consumed during photosynthesis (CO₂+H₂O in the presence of sunlight)
-  - After photosynthesis, plants convert glucose to various hydrocarbons
-  - Enthalpy balance: enthalpy of CₓHᵧ+O₂ equals enthalpy of CO₂, H₂O plus released heat energy
-
-### Reaction Kinetics
-
-- **Reaction Rates**:
-
-  - Individual hydrocarbons in coal/fossil fuel react with O₂ at different rates
-  - For the same 1 kg mass, different fuels require different times to complete reaction
-  - Coals of different origins may burn at different rates (kcal/min)
-  - Space time varies between fuels
-
-- **Influencing Factors**:
-
-  - Coal origin variations: plant type, geological age, specific plant parts
-  - Mineral matter and inorganic salt composition modifies reaction kinetics
-  - Some compounds may have catalytic (accelerating) or inhibitory (slowing) effects
-  - Two similar fuels can have different rates of chemical reaction/combustion/pyrolysis/gasification
-
-- **Analytical Limitations**:
-  - Standard coal characterization does not identify specific chemical compounds
-  - Focuses instead on thermal stability behavior (VM, FC), total residue, energy (GCV)
-  - Proximate analysis, CHNSO, GCV analysis do not provide complete information about fuel
-  - Detailed chemical analysis is difficult, time-consuming, and costly
-
-### Combustion Reactions
-
-- **Reaction Types**:
-
+- **Key Reaction Types**:
   - Complete combustion: CₓHᵧ + O₂ → CO₂ + H₂O
   - Partial combustion: CₓHᵧ + O₂ → CO + H₂O
-  - For simplicity, coal combustion is often expressed as: C + O₂ → CO₂
+  - Simplified representation: C + O₂ → CO₂
+  - Additional reactions occur with S, N, P, Cl, producing various oxides
 
-- **Additional Reactions**:
+## Combustion Kinetics and Controlling Factors
 
-  - Other elements in hydrocarbons (S, N, P, Cl, O, etc.) participate in oxidation reactions
-  - Corresponding oxides form depending on reaction conditions (temperature, pressure)
-  - Incomplete reactions may release unburned hydrocarbons or gases (N₂, Cl₂, etc.)
+- **Reaction Rate Variations**:
+  - Different coal hydrocarbon structures burn at different rates
+  - Reaction rates vary with coal origin, age, and plant source material
+  - Same mass (1 kg) of different coals require different time to complete combustion
+  - Heat release rate (kcal/min) varies between coals of similar calorific value
 
-- **Application Considerations**:
-  - Coal combustion/reaction mechanism must be understood before firing in boilers
-  - Reaction rates vary with hydrocarbon structure (different values of x, y in CₓHᵧ)
-  - Coal sources and maturity affect hydrocarbon composition
+- **Influencing Factors**:
+  - Mineral matter and inorganic salts modify reaction kinetics
+  - Some compounds have catalytic (accelerating) effects
+  - Others have inhibitory (slowing) effects
+  - Coal maturity affects hydrocarbon composition and reactivity
 
-### Diffusion Control in Combustion
+- **Diffusion-Controlled Combustion**:
+  - Initial reaction occurs at coal particle surface
+  - Ash layer quickly forms around burning coal
+  - O₂ must diffuse inward through ash layer to reach unreacted coal
+  - Combustion products (CO₂, H₂O, SO₂) must diffuse outward
+  - Reaction rate limited by diffusion through ash layer
+  - Rate progressively slows as ash layer thickens
 
-- **Surface Reaction and Ash Formation**:
-
-  - Air/O₂ initially reacts with external surface of coal
-  - Shortly after combustion begins, an ash layer forms on the outside of the coal
-  - Fresh O₂ must diffuse through this ash layer to reach unreacted coal (diffusion-controlled reaction)
-  - Combustion product gases (CO₂, H₂O, SO₂, etc.) must diffuse outward through the ash layer
-
-- **Rate Limitation Effects**:
-
-  - Combustion rate/energy release rate depends on diffusion rate of gases through ash layer
-  - Combustion rate gradually slows down as ash layer thickens
-  - Larger coal particles require longer time for complete combustion (increased residence time)
-  - Increased residence time creates possibility of unburned carbon
-
-- **Fuel Characterization Challenges**:
-  - Hydrocarbon composition significantly determines the reaction rate
-  - Standard measurements (VM, FC, H, C etc.) do not fully represent exact fuel characteristics
-  - Heat release rate (kcal/min) is more important than total heat content (kcal/kg) for combustion efficiency
-
-### Impact of Ash Content
-
-- **High-Ash Coal Considerations**:
-
-  - Combustion of high-ash coal is relatively slower and more difficult
-  - Ash layer properties critically affect combustion:
+- **Ash Layer Effects**:
+  - Critical ash properties affecting combustion:
     - Thickness
     - Porosity
     - Mineral matter composition
-  - These properties control diffusion rates of gases (O₂, CO₂, and others)
+  - High-ash coal burns slower and with more difficulty
+  - Smaller particles (<75 μm) reduce diffusion limitations
 
-- **Industrial Applications**:
-  - Pulverized coal combustion using particles <75 μm is standard in power plants
-  - Smaller particle size reduces diffusion limitations
-  - Gross Calorific Value (GCV in kcal/kg) is less different than rate of heat release (kcal/min)
-  - Combustion rate determines overall efficiency in power generation
+## Thermogravimetric Analysis (TGA) of Coal
 
-## Thermogravimetric Analysis for Coal
+- **TGA Methodology**:
+  - Coal heated in oxidative environment (O₂)
+  - Temperature increases from ambient to high temperature
+  - Typical heating rate: 10°C/min
+  - Mass loss measured and recorded continuously
+  - Mass loss profile analyzed against temperature
 
-### Methodology
-
-- **Process Description**:
-
-  - Used to analyze combustion behavior of solid fuels (coal, biomass, etc.)
-  - Coal is heated in oxidative environment (O₂) from ambient to high temperature
-  - Typical heating rate of 10°C/min is applied
-  - Mass loss occurs due to heat and O₂ (moisture loss/decomposition/oxidation)
-  - Sensitive balance measures mass loss, which is recorded by software
-
-- **Analysis Applications**:
-  - Mass loss profile is analyzed against temperature
-  - Helps assess reasons for mass loss and chemical reactions
-  - Indirectly represents hydrocarbon combustion characteristics
-  - Essential for predicting industrial combustion behavior
-
-### Industrial Relevance
-
-- **Plant-Scale Considerations**:
-  - Coal in industrial settings must burn within specified time frame
-  - Heat release must occur at specific zones (e.g., boiler tubes)
-  - Coal properties vary significantly with source
-  - Different coals have different combustion rates
-  - Combustion profile relates to hydrocarbon types reacting with O₂
-  - Essential to supply appropriate coal type (design coal) for optimal combustion
-
-### Key Temperature Points
-
-- **Critical Temperature Markers**:
-
-  - Tᵢ (Ignition Temperature): Where rate of mass loss exceeds 1%/min
-  - Tₚ (Peak Temperature): Where rate of mass loss (DTGₘₐₓ) is maximum
-  - Tf (Burnout Temperature): Where rate of mass loss falls below 1%/min
+- **Critical Temperature Points**:
+  - Tᵢ (Ignition Temperature): Where mass loss rate exceeds 1%/min
+  - Tₚ (Peak Temperature): Maximum mass loss rate (DTGₘₐₓ)
+  - Tf (Burnout Temperature): Where mass loss rate falls below 1%/min
 
 - **Combustion Sequence**:
-  - Initial moisture loss occurs around 100°C
-  - Volatile matter (VM) release begins at 300-400°C
-  - VM ignites easily, preparing fixed carbon (FC) for combustion
-  - Main combustion phase follows with significant weight loss and energy release
+  - Moisture loss (~100°C)
+  - Volatile matter release (300-400°C)
+  - Volatile matter ignition
+  - Fixed carbon combustion
+  - Burnout phase
 
-### Temperature Profile Interpretation
+- **Temperature Profile Interpretation**:
+  - Tᵢ (Ignition Temperature):
+    - Lower values indicate higher VM content
+    - Easier ignition with lower Tᵢ
+    - Indirectly indicates hydrocarbon types
+  
+  - Tₚ (Peak Temperature):
+    - Indicates maximum combustion rate
+    - Primarily represents fixed carbon combustion
+    - Low Tₚ with high energy release may indicate hazardous fuel
+    - High Tₚ indicates difficulty extracting energy quickly
+  
+  - Tf (Burnout Temperature):
+    - Indicates combustion completion
+    - Higher values suggest longer combustion time requirements
+    - Related to slowly reacting hydrocarbons
 
-- **Ignition Temperature (Tᵢ)**:
+- **Industrial Significance**:
+  - TGA profiles predict industrial combustion behavior
+  - Industrial coal must burn within specific timeframes
+  - Heat release must occur in targeted boiler zones
+  - Combustion profiles must match boiler design parameters
 
-  - After moisture loss (~100°C), heating releases volatile hydrocarbons
-  - Released through presence in fuel or thermal cracking
-  - VM ignites when concentration exceeds threshold limits
-  - This ignition releases heat, helping remaining fuel (FC) to ignite
-  - Lower Tᵢ indicates higher VM content and easier ignition
-  - Tᵢ indirectly represents hydrocarbon types present in fuel
+## Boiler Design and Coal Selection
 
-- **Peak Temperature (Tₚ)**:
-
-  - Temperature at which fuel combustion rate is highest (kg fuel/min)
-  - Maximum rate of mass loss (DTGₘₐₓ) and highest chemical reaction rate
-  - Primarily represents fixed carbon combustion
-  - Fuels burning at high rates release most energy (kcal/min) at this temperature
-  - Low Tₚ with high energy release may indicate highly inflammable fuel (potential hazard)
-  - High Tₚ indicates difficulty extracting energy in time-limited industrial combustion
-
-- **Burnout Temperature (Tf)**:
-  - Temperature where combustion is nearly complete
-  - Residual fuel is minimal and combustion rate drops below 1%/min
-  - Highly flammable hydrocarbons complete combustion at lower temperatures
-  - Slowly reacting hydrocarbons require more time for combustion
-
-### Practical Implications
-
-- **Combustion Profile Significance**:
-  - Tᵢ, Tₚ, Tf, and DTGₘₐₓ collectively represent hydrocarbon/combustible types in fuel
-  - High Tᵢ causes ignition difficulties in actual boilers
-  - High Tf results in delayed combustion and potentially incomplete burning
-  - High DTGₘₐₓ releases most energy in short time, potentially causing excessive temperatures
-  - May damage boiler or other combustor components
-
-## Boiler Design and Fuel Consistency
-
-- **Burning Profile Variations**:
-
-  - Each coal/biomass has a unique burning profile
-  - Boiler design specifications are based on these burning profiles:
+- **Burning Profile Considerations**:
+  - Each coal has unique burning characteristics
+  - Boiler design based on specific coal burning profiles:
     - Dimensions
-    - Temperature profile / Fireball characteristics
-    - Location of boiler tubes
-
-- **Blended Fuel Considerations**:
-
-  - For blended fuels (coal/coal or coal/biomass), variations in burning profile parameters affect:
-    - Fireball behavior
-    - Emission characteristics
+    - Temperature profile
+    - Fireball characteristics
+    - Tube placement
 
 - **Coal Variability Challenges**:
-
-  - Coal properties vary even within the same mine:
-    - Day-to-day variations
-    - Source-to-source differences
-  - For optimal performance, TGA/DTG profiles should be consistent across coal supplies
-  - Variations can cause boiler problems:
+  - Properties vary between mines and within same mine
+  - Day-to-day and source-to-source differences
+  - TGA/DTG profiles should remain consistent
+  - Acceptable variations limited to ±5-10°C in key temperatures
+  - Variations can cause:
     - Unburned carbon
     - Excessive temperatures
     - Ash melting
-  - Acceptable variations should be limited to approximately ±5-10°C
 
-- Coal particles need to grinded at desirable diameter/ volume and should have required density so that they remain in air for sufficient time to ensure complete combustion.
-- if not settling velocity increases and particles get less residence time and incomplete combustion occurs.
-- Coal/biomass particle density & heat release rate controls the temperature profile inside the boiler.
-- Early ignition results in wider and low temperature fire ball.
-- Delayed combustion, higher peak combustion rate results in concentrated fireball: overheating of tube, NOx formation etc.
+- **Blended Fuel Effects**:
+  - Coal/coal or coal/biomass blends alter burning profiles
+  - Changes affect:
+    - Fireball behavior
+    - Emission characteristics
+  - Non-additive properties require testing of actual blends
+
+## Particle Characteristics and Combustion Efficiency
+
+- **Optimal Particle Properties**:
+  - Size must match combustion system design
+    - Fluidized bed: 2-10 mm
+    - Pulverized coal: <75 μm
+  - Density must allow proper suspension time
+  - Settling velocity affects residence time
+  - Insufficient residence time causes incomplete combustion
+
+- **Temperature Profile Effects**:
+  - Particle size and density control heat release rates
+  - Early ignition creates wider, cooler fireballs
+  - Delayed combustion causes concentrated, hotter fireballs
+  - Concentrated fireballs can cause:
+    - Tube overheating
+    - Increased NOₓ formation
+    - Equipment damage
+
+- **Design Coal Requirements**:
+  - Use coal with properties matching combustor design
+  - Reference values available in boiler manufacturer manuals
+  - When design coal unavailable, analyze combustion profile of alternatives
+  - Combustion characteristics should be measured directly
+  - Flue gas composition provides key monitoring data
+
+- **Troubleshooting Indicators**:
+  - CO present with no O₂: Secondary air insufficient
+  - Both CO and O₂ present: Combustor problems (mixing issues)
+
+## Analytical Limitations and Practical Considerations
+
+- **Coal Characterization Challenges**:
+  - Standard tests (proximate, ultimate, GCV) don't identify specific compounds
+  - Measures thermal stability (VM, FC) rather than chemical structure
+  - Detailed chemical analysis is difficult and costly
+  - Heat release rate (kcal/min) more important than total heat content (kcal/kg)
+
+- **Historical Energy Context**:
+  - Energy released during combustion was originally captured during photosynthesis
+  - Plants converted solar energy to chemical energy in hydrocarbons
+  - Enthalpy balance: original reactants to final products plus released heat
